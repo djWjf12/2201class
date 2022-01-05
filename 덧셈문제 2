@@ -1,0 +1,31 @@
+aa = input('선택')
+if aa == '더하기':
+    import random
+    a = int(random.randint(1,30))
+    b = int(random.randint(1,30))
+    print(a,'+',b) 
+    t = int(input('='))
+    if t == a+b:
+        print('bb')
+    else:
+        print('TT')
+if aa == '곱하기':
+    import random
+    a = int(random.randint(1,30))
+    b = int(random.randint(1,30))
+    print(a,'x',b) 
+    t = int(input('='))
+    if t == a*b:
+        print('bb')
+    else:
+        print('TT')
+if aa == '빼기':
+    import random
+    a = int(random.randint(1,30))
+    b = int(random.randint(1,30))
+    print(a,'-',b) 
+    t = int(input('='))
+    if t == a-b:
+        print('bb')
+    else:
+        print('TT')
