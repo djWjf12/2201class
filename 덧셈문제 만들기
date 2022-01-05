@@ -1,0 +1,9 @@
+import random
+a = int(random.randint(1,30))
+b = int(random.randint(1,30))
+print(a,'+',b) 
+t = int(input('='))
+if t == a+b:
+    print('bb')
+else:
+    print('TT')
