@@ -1,0 +1,16 @@
+print('ax**2+bx+c=0 의 해 구하기')
+a = float(input('a='))
+b = float(input('b='))
+c = float(input('c='))
+H = float(b**2-4*a*c)
+
+import math
+
+if H < 0:
+    print('해가 없음')
+    
+if H == 0:
+    print('x =',-b/(a*2))
+    
+if H > 0:
+    print('x =',((-b)+math.sqrt(H))/(a*2), 'or', ((-b)-math.sqrt(H))/(a*2))
