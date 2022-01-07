@@ -1,0 +1,13 @@
+while True:
+    import random
+    a = random.randint(1,31)
+    b = int(input('맞춰보세용'))
+    if a == b:
+        print('정답')
+        break
+
+else:
+    if a > b:
+        print('작아요')
+    if b > a:
+        print('커요')
