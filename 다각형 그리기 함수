@@ -1,0 +1,7 @@
+import turtle as t
+def hello(n):
+    l = 360/n
+    for x in range(n):
+        t.fd(50)
+        t.lt(l)
+hello(3) 
