@@ -1,0 +1,5 @@
+!git clone https://github.com/inkuki/CIVID19.git
+dataframe = read_csv('CIVID19/COVID19.csv', usecols=[3], engine='python', skipfooter=3)
+print(dataframe)
+dataset = dataframe.values
+dataset = dataset.astype('float32')
