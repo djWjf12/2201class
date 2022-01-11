@@ -1,0 +1,3 @@
+predicted_classes = np.argmax(model.predict(X_test), axis = 1)
+correct_indicies= np.nonzero(predicted_classes == y_test)[0]
+incorrect_indices = np.nonzero(predicted_classes != y_test)[0]
