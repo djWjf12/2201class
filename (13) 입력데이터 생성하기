@@ -1,0 +1,5 @@
+look_back = 3
+x_train, y_train = create_dataset(train_data, look_back)
+x_test, y_test = create_dataset(test_data, look_back)
+print(x_train.shape, y_train.shape)
+print(x_test.shape, y_test.shape)
