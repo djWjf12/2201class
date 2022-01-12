@@ -1,0 +1,6 @@
+trainPredict = model.predict(X_train)
+testPredict = model.predict(X_test)
+TrainPredict = scaler.inverse_transform(trainPredict)
+Y_train = scaler.inverse_transform([y_train])
+TestPredict = scaler.inverse_transform(testPredict)
+Y_test = scaler.inverse_transform([y_test])
