@@ -1,0 +1,4 @@
+trainScore = math.sqrt(mean_squared_error(Y_train[0], TrainPredict[:,0]))
+print('Train Score: %.2f RSME' % (trainScore))
+testScore = math.sqrt(mean_squared_error(Y_test[0], TestPredict[:,0]))
+print('TestScore: %.2f RSME' % (testScore))
