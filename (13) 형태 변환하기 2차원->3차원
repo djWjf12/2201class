@@ -1,0 +1,4 @@
+X_trian = np.reshape(x_train, (x_train.shape[0], 1, x_train.shape[1]))
+X_test = np.reshape(x_test, (x_test.shape[0], 1, x_test.shape[1]))
+print(X_train.shape)
+print(X_test.shape)
