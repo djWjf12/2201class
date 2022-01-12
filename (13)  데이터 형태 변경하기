@@ -1,0 +1,8 @@
+def create_dataset(dataset,look_back):
+  x_data = []
+  y_data = []
+  for i in range(len(dataset)-look_back-1):
+    data = dataset[i:(i+look_back),0]
+    x_data.append(data)
+    y_data.append(dataset[i + look_back, 0])
+  return np.array(x_data), np.array(y_data)
